@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
 
+*::selection {
+    background-color: transparent;
+}
+
 @media screen and (max-width: 450px) {
 
     .cover-desktop{
