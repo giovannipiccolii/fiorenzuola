@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
 
-*::selection {
-    background-color: transparent;
+* {
+    -webkit-tap-highlight-color: transparent; /* Per browser basati su WebKit (come Chrome e Safari) */
+    -webkit-touch-callout: none; /* Disabilita il menu di chiamata quando si tiene premuto su un link */
+    -moz-user-select: none; /* Disabilita la selezione del testo per i browser Mozilla */
+    -ms-user-select: none; /* Disabilita la selezione del testo per Internet Explorer */
+    user-select: none; /* Disabilita la selezione del testo per tutti i browser */
 }
 
 @media screen and (max-width: 450px) {
