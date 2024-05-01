@@ -91,6 +91,7 @@
     .scrolledHeader {
         height: 35px; /* Altezza desiderata quando l'header è scrollato */
         padding: 30px; 
+        padding-left: 20px;
         font-size: 20px;
     }
     
